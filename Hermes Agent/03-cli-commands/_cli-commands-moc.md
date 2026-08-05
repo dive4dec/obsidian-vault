@@ -1,0 +1,61 @@
+---
+tags: [moc, CLI-&-Commands]
+---
+
+# CLI & Commands
+
+> The command-line interface and all the commands you can run. From chat to config to cron, this is your reference manual.
+
+## Concepts
+
+- [[checkpoints-flag|Checkpoints Flag]]
+- [[config-check|Config Check]]
+- [[config-edit|Config Edit]]
+- [[config-migrate|Config Migrate]]
+- [[config-path|Config Path]]
+- [[config-set|Config Set]]
+- [[continue-flag|Continue Flag]]
+- [[global-flags|Global Flags]]
+- [[hermes-acp|Hermes ACP]]
+- [[hermes-auth|Hermes Auth]]
+- [[hermes-chat|Hermes Chat]]
+- [[hermes-claw-migrate|Hermes Claw Migrate]]
+- [[hermes-completion|Hermes Completion]]
+- [[hermes-config|Hermes Config]]
+- [[hermes-cron|Hermes Cron]]
+- [[hermes-curator|Hermes Curator]]
+- [[hermes-doctor-command|Hermes Doctor Command]]
+- [[hermes-gateway|Hermes Gateway]]
+- [[hermes-honcho|Hermes Honcho]]
+- [[hermes-insights|Hermes Insights]]
+- [[hermes-kanban|Hermes Kanban]]
+- [[hermes-mcp|Hermes MCP]]
+- [[hermes-memory|Hermes Memory]]
+- [[hermes-model|Hermes Model]]
+- [[hermes-pairing|Hermes Pairing]]
+- [[hermes-plugins|Hermes Plugins]]
+- [[hermes-profile|Hermes Profile]]
+- [[hermes-sessions|Hermes Sessions]]
+- [[hermes-skills|Hermes Skills]]
+- [[hermes-status-command|Hermes Status Command]]
+- [[hermes-tools|Hermes Tools]]
+- [[hermes-uninstall|Hermes Uninstall]]
+- [[hermes-update|Hermes Update]]
+- [[hermes-webhook|Hermes Webhook]]
+- [[model-flag|Model Flag]]
+- [[pass-session-id-flag|Pass Session ID Flag]]
+- [[profile-flag|Profile Flag]]
+- [[provider-flag|Provider Flag]]
+- [[quiet-flag|Quiet Flag]]
+- [[resume-flag|Resume Flag]]
+- [[single-query-mode|Single Query Mode]]
+- [[skills-flag|Skills Flag]]
+- [[source-flag|Source Flag]]
+- [[toolsets-flag|Toolsets Flag]]
+- [[verbose-flag|Verbose Flag]]
+- [[version-flag|Version Flag]]
+- [[worktree-flag|Worktree Flag]]
+- [[yolo-flag|Yolo Flag]]
+
+---
+[[Hermes Agent MOC|Back to MOC]]

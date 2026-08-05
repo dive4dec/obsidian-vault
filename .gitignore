@@ -1,0 +1,12 @@
+# Per-user Obsidian state (conflicts on git pull)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+.obsidian/cache
+
+# Generator scripts (not needed by students)
+**/_generator/
+
+# OS files
+.DS_Store
+Thumbs.db

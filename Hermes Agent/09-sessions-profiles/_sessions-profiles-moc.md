@@ -1,0 +1,63 @@
+---
+tags: [moc, Sessions-&-Profiles]
+---
+
+# Sessions & Profiles
+
+> Sessions and profiles: conversation management and multi-agent setup
+
+## Concepts
+
+- [[clear-session|Clear Session]]
+- [[continue-flag|Continue Flag]]
+- [[conversation-history|Conversation History]]
+- [[cross-session-search|Cross-Session Search]]
+- [[hermes-profile|Hermes Profile]]
+- [[hermes-sessions|Hermes Sessions]]
+- [[json-snapshots|JSON Snapshots]]
+- [[jsonl-export|JSONL Export]]
+- [[named-sessions|Named Sessions]]
+- [[new-session|New Session]]
+- [[profile-alias|Profile Alias]]
+- [[profile-cloning|Profile Cloning]]
+- [[profile-config|Profile Config]]
+- [[profile-create|Profile Create]]
+- [[profile-delete|Profile Delete]]
+- [[profile-distribution|Profile Distribution]]
+- [[profile-flag|Profile Flag]]
+- [[profile-import|Profile Import]]
+- [[profile-isolation|Profile Isolation]]
+- [[profile-list|Profile List]]
+- [[profile-memory|Profile Memory]]
+- [[profile-rename|Profile Rename]]
+- [[profile-sessions|Profile Sessions]]
+- [[profile-show|Profile Show]]
+- [[profile-skills|Profile Skills]]
+- [[profile-use|Profile Use]]
+- [[profiles|Profiles]]
+- [[reset-session|Reset Session]]
+- [[resume-flag|Resume Flag]]
+- [[resume-session|Resume Session]]
+- [[retry|Retry]]
+- [[running-multiple-agents|Running Multiple Agents]]
+- [[sqlite-fts5|SQLite FTS5]]
+- [[session-branching|Session Branching]]
+- [[session-browse|Session Browse]]
+- [[session-compression-history|Session Compression History]]
+- [[session-delete|Session Delete]]
+- [[session-export|Session Export]]
+- [[session-fork|Session Fork]]
+- [[session-id|Session ID]]
+- [[session-prune|Session Prune]]
+- [[session-rename|Session Rename]]
+- [[session-source-tag|Session Source Tag]]
+- [[session-stats|Session Stats]]
+- [[session-store|Session Store]]
+- [[session-title|Session Title]]
+- [[sessions|Sessions]]
+- [[state-db|State DB]]
+- [[undo|Undo]]
+- [[write-json-snapshots|Write JSON Snapshots]]
+
+---
+[[Hermes Agent MOC|Back to MOC]]

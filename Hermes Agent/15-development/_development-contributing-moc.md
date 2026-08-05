@@ -1,0 +1,60 @@
+---
+tags: [moc, Development-&-Contributing]
+---
+
+# Development & Contributing
+
+> Development, testing, and contributing to Hermes
+
+## Concepts
+
+- [[adding-a-slash-command|Adding a Slash Command]]
+- [[adding-a-tool|Adding a Tool]]
+- [[agent-loop|Agent Loop]]
+- [[branch-session|Branch Session]]
+- [[checkpoints|Checkpoints]]
+- [[code-review|Code Review]]
+- [[commands-registry|Commands Registry]]
+- [[commit-convention|Commit Convention]]
+- [[community|Community]]
+- [[compression-config|Compression Config]]
+- [[config-check|Config Check]]
+- [[config-migrate|Config Migrate]]
+- [[context-compression|Context Compression]]
+- [[conversation-history|Conversation History]]
+- [[debug-command|Debug Command]]
+- [[discord|Discord]]
+- [[environment-hints|Environment Hints]]
+- [[filesystem-snapshot|Filesystem Snapshot]]
+- [[gateway-logs|Gateway Logs]]
+- [[github-repository|GitHub Repository]]
+- [[hermes-desktop|Hermes Desktop]]
+- [[hermes-doctor|Hermes Doctor]]
+- [[hermes-source-code|Hermes Source Code]]
+- [[hermes-status|Hermes Status]]
+- [[hermes-update|Hermes Update]]
+- [[in-session-commands|In-Session Commands]]
+- [[logging|Logging]]
+- [[mit-license|MIT License]]
+- [[message-role-alternation|Message Role Alternation]]
+- [[open-source|Open Source]]
+- [[project-layout|Project Layout]]
+- [[prompt-builder|Prompt Builder]]
+- [[prompt-caching|Prompt Caching]]
+- [[pull-request|Pull Request]]
+- [[pytest|Pytest]]
+- [[rollback|Rollback]]
+- [[safety-net|Safety Net]]
+- [[session-fork|Session Fork]]
+- [[slash-commands|Slash Commands]]
+- [[system-prompt|System Prompt]]
+- [[test-coverage|Test Coverage]]
+- [[test-suite|Test Suite]]
+- [[testing|Testing]]
+- [[tool-dispatch|Tool Dispatch]]
+- [[tool-registry|Tool Registry]]
+- [[troubleshooting|Troubleshooting]]
+- [[undo|Undo]]
+
+---
+[[Hermes Agent MOC|Back to MOC]]

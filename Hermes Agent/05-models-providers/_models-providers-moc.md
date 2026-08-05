@@ -1,0 +1,60 @@
+---
+tags: [moc, Models-&-Providers]
+---
+
+# Models & Providers
+
+> Models and providers: LLM selection and authentication
+
+## Concepts
+
+- [[api-key|API Key]]
+- [[alibaba-dashscope|Alibaba DashScope]]
+- [[anthropic|Anthropic]]
+- [[auth-add|Auth Add]]
+- [[auth-json|Auth JSON]]
+- [[auth-list|Auth List]]
+- [[auth-remove|Auth Remove]]
+- [[auth-reset|Auth Reset]]
+- [[auxiliary-model-selection|Auxiliary Model Selection]]
+- [[base-url|Base URL]]
+- [[credential-pools|Credential Pools]]
+- [[credential-rotation|Credential Rotation]]
+- [[custom-endpoint|Custom Endpoint]]
+- [[deepseek|DeepSeek]]
+- [[github-copilot|GitHub Copilot]]
+- [[google-gemini|Google Gemini]]
+- [[hermes-auth|Hermes Auth]]
+- [[hermes-model|Hermes Model]]
+- [[hugging-face|Hugging Face]]
+- [[kimi-moonshot|Kimi Moonshot]]
+- [[local-model|Local Model]]
+- [[minimax|MiniMax]]
+- [[mixture-of-agents|Mixture of Agents]]
+- [[model-comparison|Model Comparison]]
+- [[model-context|Model Context]]
+- [[model-default|Model Default]]
+- [[model-fallback|Model Fallback]]
+- [[model-quality|Model Quality]]
+- [[model-routing|Model Routing]]
+- [[model-speed|Model Speed]]
+- [[model-switching|Model Switching]]
+- [[nous-portal|Nous Portal]]
+- [[oauth|OAuth]]
+- [[ollama|Ollama]]
+- [[openai|OpenAI]]
+- [[openrouter|OpenRouter]]
+- [[provider-agnostic|Provider Agnostic]]
+- [[provider-selection|Provider Selection]]
+- [[qwen-oauth|Qwen OAuth]]
+- [[rate-limiting|Rate Limiting]]
+- [[streaming|Streaming]]
+- [[token-cost|Token Cost]]
+- [[tool-use-support|Tool Use Support]]
+- [[vision-support|Vision Support]]
+- [[zai-glm|Z.AI GLM]]
+- [[vllm|vLLM]]
+- [[xai-grok|xAI Grok]]
+
+---
+[[Hermes Agent MOC|Back to MOC]]

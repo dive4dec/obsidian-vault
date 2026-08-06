@@ -13,7 +13,7 @@ Like BPE but builds vocabulary for language understanding (BERT). Uses ## prefix
 
 ## 📋 Concrete Example
 
-Playing splits to [Play, ##ing]. The ## marks that ing attaches to the previous piece.
+Playing splits to [Play, `##ing`]. The double-hash marks that `ing` attaches to the previous piece.
 
 ## 🔗 Analogy
 

@@ -17,7 +17,7 @@ A memory is tagged: [project:chatbot, skill:flask]. When you work on the chatbot
 
 ## Analogy
 
-Hashtags on social media - you search #travel to find travel posts. Memory tagging lets the agent filter memories by category.
+Hashtags on social media - you search `#travel` to find travel posts. Memory tagging lets the agent filter memories by category.
 
 ## Related Concepts
 

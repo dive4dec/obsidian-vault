@@ -13,7 +13,7 @@ Scrambling data so only authorized parties can read it. Used for security everyw
 
 ## 📋 Concrete Example
 
-Encryption: `Hello` -> encrypted -> 'Xj7#kQ9m'. Only someone with the key can decrypt it back to `Hello`. Without the key, it is gibberish.
+Encryption: `Hello` -> encrypted -> `Xj7#kQ9m`. Only someone with the key can decrypt it back to `Hello`. Without the key, it is gibberish.
 
 ## 🔗 Analogy
 

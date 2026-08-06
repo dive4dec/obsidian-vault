@@ -13,7 +13,7 @@ The Hermes Discord server. Real-time chat, help, announcements, and community di
 
 ## Concrete Example
 
-Discord: #general (chat), #help (support), #dev (development), #skills (sharing). Real-time community. Faster than GitHub issues for quick questions.
+Discord: `#general` (chat), `#help` (support), `#dev` (development), `#skills` (sharing). Real-time community. Faster than GitHub issues for quick questions.
 
 ## Analogy
 

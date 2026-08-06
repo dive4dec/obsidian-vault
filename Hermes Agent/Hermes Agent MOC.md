@@ -1,5 +1,5 @@
 ---
-tags: [moc, hermes-agent-workshop]
+tags: [moc, hermes-agent]
 ---
 
 # Hermes Agent - Master Map

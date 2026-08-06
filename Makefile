@@ -26,8 +26,8 @@ site-build:
 	cd $(QUARTZ_DIR) && npx quartz build -d $(CONTENT_DIR)
 
 # Serve locally for preview
-site-serve: site-build
-	cd $(QUARTZ_DIR) && npx quartz serve -p $(PORT)
+site-serve:
+	cd $(QUARTZ_DIR) && python3 serve.py $(PORT) public
 
 # Deploy to GitHub Pages (gh-pages branch)
 site-deploy: site-build

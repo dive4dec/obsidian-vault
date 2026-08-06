@@ -13,7 +13,7 @@ Hermes has an active community: GitHub, Discord, docs. Users contribute skills, 
 
 ## Concrete Example
 
-Discord: #help channel. Ask a question, get an answer. GitHub: report issues, submit PRs. Docs: read guides, contribute improvements. The community makes Hermes better.
+Discord: `#help` channel. Ask a question, get an answer. GitHub: report issues, submit PRs. Docs: read guides, contribute improvements. The community makes Hermes better.
 
 ## Analogy
 

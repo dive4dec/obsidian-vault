@@ -2,12 +2,13 @@
 title: Home
 ---
 
-# Agentic Coding & Hermes Agent
+# Agentic Coding, Hermes Agent & Package Development
 
 Interconnected Obsidian notes for the Agentic Coding Workshop.
 
 - **Agentic Coding** — 1,231 concept notes across 21 domains
 - **Hermes Agent** — 780 concept notes across 15 domains
+- **Package Development** — 286 concept notes across 15 domains
 
 ## Browse by Domain
 
@@ -19,13 +20,17 @@ Interconnected Obsidian notes for the Agentic Coding Workshop.
 
 - [[Hermes Agent/Hermes Agent MOC|Hermes Agent — Master Map]]
 
+### Package Development
+
+- [[Package Development/Package Development MOC|Package Development — Master Map]]
+
 ## Browse by Tag
 
 See all [tags](/tags/) or use the tag links on each note.
 
 ## Search
 
-Use the search bar in the sidebar to find any concept across all 2,011 notes.
+Use the search bar in the sidebar to find any concept across all notes.
 
 ## Graph View
 

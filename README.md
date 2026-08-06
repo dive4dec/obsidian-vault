@@ -1,10 +1,11 @@
-# Obsidian Vault — Agentic Coding & Hermes Agent
+# Obsidian Vault — Agentic Coding, Hermes Agent & Package Development
 
 Interconnected Obsidian notes for the Agentic Coding Workshop.
 
-- **2,011 notes** across two vaults
+- **2,297 notes** across three vaults
 - **Agentic Coding** — 1,231 concept notes, 21 domains (programming, data structures, algorithms, AI, agents...)
 - **Hermes Agent** — 780 concept notes, 15 domains (fundamentals, skills, memory, MCP, gateway...)
+- **Package Development** — 286 concept notes, 15 domains (PyPI, conda, Jupyter, git, pytest, pydantic, security...)
 - Notes are linked with `[[wikilinks]]` and organized by domain
 
 ## Read Online (GitHub Pages)
@@ -13,11 +14,14 @@ A read-only preview with full-text search, graph view, and tag filtering is avai
 
 > **https://dive4dec.github.io/obsidian-vault/**
 
+The front page includes a **nbgitpuller link generator** — enter your JupyterHub URL and click to pull the vault directly into your Jupyter server.
+
 Features:
 - 🔍 **Search** — full-text search across all notes
 - 🕸️ **Graph view** — visual map of note connections, filterable by tags
 - 🏷️ **Tags** — browse notes by tag
 - 🔗 **Wikilinks** — all `[[links]]` are clickable
+- 📥 **nbgitpuller generator** — built into the front page
 
 ### Deploy / Update the Site
 
@@ -81,9 +85,10 @@ Link to other notes with [[wikilinks]].
 
 ## Pull to JupyterHub (nbgitpuller)
 
-Open [`nbgitpuller.html`](nbgitpuller.html) in a browser to generate a link that
-pulls this vault into a JupyterHub server. Fill in your hub URL and click the
-generated link — nbgitpuller clones the vault to `~/obsidian-vault/` on the server.
+Visit the [GitHub Pages site](https://dive4dec.github.io/obsidian-vault/) and use
+the **nbgitpuller link generator** on the front page. Enter your JupyterHub URL,
+click **Generate Link**, then open the link — nbgitpuller clones the vault to
+`~/obsidian-vault/` on the server.
 
 ## Repository Structure
 
@@ -91,10 +96,11 @@ generated link — nbgitpuller clones the vault to `~/obsidian-vault/` on the se
 obsidian-vault/
 ├── Agentic Coding/          # 1,231 notes, 21 domains
 ├── Hermes Agent/            # 780 notes, 15 domains
+├── Package Development/     # 286 notes, 15 domains
+├── index.md                 # Home page (with nbgitpuller generator)
 ├── .obsidian/               # Shared Obsidian config (plugins, settings)
 ├── .site/                   # Quartz static site generator (GitHub Pages)
 ├── Makefile                 # site-init, site-build, site-serve, site-deploy
-├── nbgitpuller.html         # Generate nbgitpuller links for JupyterHub
 └── .gitignore
 ```
 

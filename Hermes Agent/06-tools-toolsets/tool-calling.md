@@ -24,3 +24,5 @@ A customer ordering at a restaurant - they tell the waiter what they want. The w
 - [[tool-dispatch|Tool Dispatch]]
 - [[tool-registry|Tool Registry]]
 - [[toolsets|Toolsets]]
+- [[mcp-bridge|MCP Bridge]]
+- [[entry-points-pattern|Entry Points Pattern]]

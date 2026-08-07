@@ -24,3 +24,5 @@ Under `[project]` you write `name = "mypkg"` and `dependencies = ["requests"]`, 
 - [[setup-py|setup.py]]
 - [[build-system|build-system]]
 - [[metadata|metadata]]
+- [[hermes-acp-sdk|hermes-acp-sdk]]
+- [[jupyter-ai-hermes|jupyter-ai-hermes]]

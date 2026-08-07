@@ -50,6 +50,8 @@ tags: [moc, MCP-&-Integrations]
 - [[voice-mode|Voice Mode]]
 - [[web-extract|Web Extract]]
 - [[web-search|Web Search]]
+- [[mcp-bridge|MCP Bridge]]
+- [[jupyter-ai-hermes|jupyter-ai-hermes]]
 
 ---
 [[Hermes Agent MOC|Back to MOC]]

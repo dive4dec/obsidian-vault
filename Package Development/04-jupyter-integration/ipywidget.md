@@ -24,3 +24,5 @@ ipywidget is the remote control in your hand — you build the buttons in Python
 - [[jupyter-widget|jupyter-widget]]
 - [[interact-decorator|interact-decorator]]
 - [[observe-callback|observe-callback]]
+- [[jupyter-cpp-tutor|jupyter-cpp-tutor]]
+- [[jupyter-python-tutor|jupyter-python-tutor]]

@@ -24,3 +24,5 @@ Like playing a turn-based game: you pick a move, see what happens, then plan you
 - [[autonomous-agent|Autonomous Agent]]
 - [[tool-calling|Tool Calling]]
 - [[max-turns|Max Turns]]
+- [[hermes-acp-sdk|hermes-acp-sdk]]
+- [[jupyter-ai-hermes|jupyter-ai-hermes]]

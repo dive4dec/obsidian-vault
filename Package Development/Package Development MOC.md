@@ -36,6 +36,9 @@ A collection of **286 concept notes** across **15 domains** covering everything 
 ### Coming Up with Ideas
 - [[_ideation-moc|14 — Package Ideation]] — scratch your own itch, API-first design, gap analysis
 
+### Real Packages & Ecosystem
+- [[_real-packages-moc|16 — Real Packages]] — jupyter-ai-hermes, hermes-acp-sdk, cppmanlite, jupyter-cpp-tutor, jupyterhub-litellm, jupyterlab-pwa
+
 ## How to Use This Vault
 
 Each note follows the pattern: **motivation → concrete example → analogy → related concepts**. Start from any domain MOC above and follow the wikilinks to explore connected ideas.

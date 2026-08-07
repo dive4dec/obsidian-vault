@@ -24,3 +24,4 @@ Optional dependencies are add-ons at a restaurant — pay extra for cheese or de
 - [[dependencies|dependencies]]
 - [[metadata|metadata]]
 - [[pyproject-toml|pyproject.toml]]
+- [[hermes-acp-sdk|hermes-acp-sdk]]

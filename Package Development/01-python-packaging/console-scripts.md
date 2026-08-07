@@ -24,3 +24,4 @@ Console scripts are vending machine buttons — press the command name and out p
 - [[entry-points|entry-points]]
 - [[pyproject-toml|pyproject.toml]]
 - [[setuptools|setuptools]]
+- [[hermes-acp-sdk|hermes-acp-sdk]]

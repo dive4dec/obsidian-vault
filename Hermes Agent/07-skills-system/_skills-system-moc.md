@@ -64,6 +64,8 @@ tags: [moc, Skills-System]
 - [[skills-update|Skills Update]]
 - [[stale-skills|Stale Skills]]
 - [[usage-json|Usage JSON]]
+- [[plugin-architecture|Plugin Architecture]]
+- [[entry-points-pattern|Entry Points Pattern]]
 
 ---
 [[Hermes Agent MOC|Back to MOC]]

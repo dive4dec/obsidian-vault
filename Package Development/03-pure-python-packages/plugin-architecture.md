@@ -24,3 +24,5 @@ Plugin architecture is a wall of electrical sockets — you plug in any device a
 - [[entry-points|entry-points]]
 - [[hook-functions|hook-functions]]
 - [[registry-pattern|registry-pattern]]
+- [[jupyter-ai-hermes|jupyter-ai-hermes]]
+- [[jupyter-ai-persona-manager|jupyter-ai-persona-manager]]

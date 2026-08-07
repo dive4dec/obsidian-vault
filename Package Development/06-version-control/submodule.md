@@ -24,3 +24,4 @@ A `submodule` is like a book that includes a CD of supplementary material. The b
 - [[clone|clone]]
 - [[monorepo|monorepo]]
 - [[remote|remote]]
+- [[submodule-management|Submodule Management]]

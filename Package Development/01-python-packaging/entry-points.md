@@ -24,3 +24,6 @@ Entry points are a phone directory — other programs look up your function's nu
 - [[console-scripts|console-scripts]]
 - [[plugin-architecture|plugin-architecture]]
 - [[metadata|metadata]]
+- [[entry-points-pattern|Entry Points Pattern]]
+- [[jupyter-ai-hermes|jupyter-ai-hermes]]
+- [[ipython-magic-registration|IPython Magic Registration]]

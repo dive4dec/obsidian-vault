@@ -24,3 +24,5 @@ Magic commands are cheat codes in a game — type a short prefix and get a power
 - [[line-magic|line-magic]]
 - [[cell-magic|cell-magic]]
 - [[magic-commands|magic-commands]]
+- [[jupyter-ai-hermes-magics|jupyter-ai-hermes-magics]]
+- [[ipython-magic-registration|IPython Magic Registration]]

@@ -24,3 +24,5 @@ A JupyterLab extension is an app on your phone home screen — it adds a new ico
 - [[lab-extension|lab-extension]]
 - [[typescript|typescript]]
 - [[jupyterlab-ui|jupyterlab-ui]]
+- [[jupyterlab-pwa|jupyterlab-pwa]]
+- [[jupyter-cpp-tutor|jupyter-cpp-tutor]]

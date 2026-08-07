@@ -24,3 +24,4 @@ A school ID card with a photo and hologram is hard to forge. A handwritten name 
 - [[secrets-in-code|Secrets in Code]]
 - [[rate-limiting|Rate Limiting]]
 - [[sensitive-data-exposure|Sensitive Data Exposure]]
+- [[jupyterhub-litellm|jupyterhub-litellm]]

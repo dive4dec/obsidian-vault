@@ -24,3 +24,6 @@ Hatch is an all-in-one workshop — build, test, and ship your project without s
 - [[build-system|build-system]]
 - [[flit|flit]]
 - [[poetry|poetry]]
+- [[hermes-acp-sdk|hermes-acp-sdk]]
+- [[jupyter-ai-hermes|jupyter-ai-hermes]]
+- [[jupyterlab-pwa|jupyterlab-pwa]]

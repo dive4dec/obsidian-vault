@@ -24,3 +24,4 @@ You do not write your locker combination on the locker door. You memorize it. Co
 - [[sensitive-data-exposure|Sensitive Data Exposure]]
 - [[authentication-patterns|Authentication Patterns]]
 - [[dependency-vulnerability|Dependency Vulnerability]]
+- [[jupyterhub-litellm|jupyterhub-litellm]]

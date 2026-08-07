@@ -37,3 +37,4 @@ domain: Version Control with Git
 - [[_pypi-conda-moc|PyPI & Conda]]
 - [[_testing-moc|Testing & Quality]]
 - [[_ci-cd-moc|CI/CD & Automation]]
+- [[submodule-management|Submodule Management]]

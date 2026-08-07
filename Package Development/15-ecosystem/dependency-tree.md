@@ -24,3 +24,4 @@ A family tree shows you and your parents, but also grandparents and cousins. See
 - [[dependency-graph|Dependency Graph]]
 - [[transitive-dependencies|Transitive Dependencies]]
 - [[dependency-resolution|Dependency Resolution]]
+- [[dependency-graph-overview|Dependency Graph Overview]]

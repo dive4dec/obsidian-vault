@@ -24,3 +24,5 @@ The registry pattern is a sign-up sheet — plugins write their name, and the ho
 - [[plugin-architecture|plugin-architecture]]
 - [[hook-functions|hook-functions]]
 - [[entry-points|entry-points]]
+- [[entry-points-pattern|Entry Points Pattern]]
+- [[jupyter-ai-persona-manager|jupyter-ai-persona-manager]]

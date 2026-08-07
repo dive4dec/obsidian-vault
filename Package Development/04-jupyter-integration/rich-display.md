@@ -24,3 +24,5 @@ Rich display is a picture frame — your object chooses how to present itself, n
 - [[display-publishing|display-publishing]]
 - [[mime-bundle|mime-bundle]]
 - [[jupyter-widget|jupyter-widget]]
+- [[jupyter-cpp-tutor|jupyter-cpp-tutor]]
+- [[jupyter-python-tutor|jupyter-python-tutor]]

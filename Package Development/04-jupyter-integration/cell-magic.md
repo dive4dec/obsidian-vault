@@ -24,3 +24,4 @@ Cell magic is a factory setting for the whole room — it changes how everything
 - [[line-magic|line-magic]]
 - [[jupyter-magic|jupyter-magic]]
 - [[magic-commands|magic-commands]]
+- [[jupyter-ai-hermes-magics|jupyter-ai-hermes-magics]]

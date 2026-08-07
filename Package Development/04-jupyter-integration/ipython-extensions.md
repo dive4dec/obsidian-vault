@@ -24,3 +24,5 @@ IPython extensions are browser add-ons — install one and your notebook gains n
 - [[load-ext|load-ext]]
 - [[register-magic|register-magic]]
 - [[jupyter-magic|jupyter-magic]]
+- [[jupyter-ai-hermes-magics|jupyter-ai-hermes-magics]]
+- [[ipython-magic-registration|IPython Magic Registration]]

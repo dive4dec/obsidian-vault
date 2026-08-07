@@ -24,3 +24,4 @@ Pure Python is a handwritten letter — no special equipment needed to read it, 
 - [[no-compile-deps|no-compile-deps]]
 - [[wheel|wheel]]
 - [[zip-safe|zip-safe]]
+- [[cppmanlite|cppmanlite]]

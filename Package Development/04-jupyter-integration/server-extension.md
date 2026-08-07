@@ -24,3 +24,5 @@ A server extension is a kitchen renovation — it changes what the backend (kitc
 - [[nbextension|nbextension]]
 - [[jupyterlab-extension|jupyterlab-extension]]
 - [[comms|comms]]
+- [[jupyter-hermes-proxy|jupyter-hermes-proxy]]
+- [[jupyter-server-proxy|jupyter-server-proxy]]

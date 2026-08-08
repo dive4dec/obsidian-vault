@@ -37,7 +37,6 @@ Like an X-ray machine for your code — you see the bones (structure), the blood
 - **Install:** `pip install jupyter-python-tutor`
 - **Companion app (OPT_Mentor):** https://github.com/dive4dec/OPT_Mentor
 - **OPT_Mentor live site:** https://dive4dec.github.io/OPT_Mentor/
-- **OPT_Mentor API mode:** https://ccha23.github.io/OPTM/
 
 ## Related Concepts
 

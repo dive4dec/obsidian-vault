@@ -13,7 +13,7 @@ OPT_Mentor is a serverless Python code visualizer that runs entirely in the brow
 
 ## 📋 Concrete Example
 
-Visit [https://dive4dec.github.io/OPT_Mentor/](https://dive4dec.github.io/OPT_Mentor/) (WebLLM mode) or [https://ccha23.github.io/OPTM/](https://ccha23.github.io/OPTM/) (API mode). Paste your Python code, click "Visualize Execution" for step-by-step tracing, or "Live Edit" for Socratic AI hints.
+Visit [https://dive4dec.github.io/OPT_Mentor/](https://dive4dec.github.io/OPT_Mentor/) to try it without installing anything. Paste your Python code, click "Visualize Execution" for step-by-step tracing, or "Live Edit" for Socratic AI hints.
 
 ## 🔗 Analogy
 
@@ -26,8 +26,7 @@ Like having a patient tutor who never gives you the answer — instead, they ask
 ## 📦 Links
 
 - **GitHub:** https://github.com/dive4dec/OPT_Mentor
-- **Live site (WebLLM):** https://dive4dec.github.io/OPT_Mentor/
-- **Live site (API mode):** https://ccha23.github.io/OPTM/
+- **Live site:** https://dive4dec.github.io/OPT_Mentor/
 
 ## Related Concepts
 

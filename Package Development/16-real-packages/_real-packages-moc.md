@@ -18,6 +18,8 @@ domain: Real Packages
 
 - [[jupyter-cpp-tutor|jupyter-cpp-tutor]] — C++ step-by-step visualization for JupyterLab
 - [[jupyter-python-tutor|jupyter-python-tutor]] — Python Tutor-style visualization for JupyterLab
+- [[opt-cpp|OPT_CPP]] — Serverless C++ visualizer (browser, WebAssembly)
+- [[opt-mentor|OPT_Mentor]] — Serverless Python visualizer (browser, Pyodide + Socratic AI)
 - [[cppmanlite|cppmanlite]] — Serverless C++ documentation lookup
 
 ## JupyterHub Infrastructure

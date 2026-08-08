@@ -26,6 +26,12 @@ Depends on `agent-client-protocol==0.9.0` and `pyyaml>=6.0`. Optional `[tools]` 
 
 Like a remote control for a robot — the SDK sends commands (your prompt), the robot (Hermes Agent) does the work, and you watch the live video feed (streaming events). No need to be in the same room.
 
+## 📦 Links
+
+- **GitHub:** https://github.com/VoixKz/hermes-acp-sdk
+- **PyPI:** https://pypi.org/project/hermes-acp-sdk/
+- **Install:** `pip install hermes-acp-sdk` (or `pip install 'hermes-acp-sdk[tools,hermes]'`)
+
 ## Related Concepts
 
 - [[agent-client-protocol|Agent Client Protocol (ACP)]]

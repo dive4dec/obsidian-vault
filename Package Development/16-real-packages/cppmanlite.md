@@ -25,6 +25,13 @@ Pure Python, no compiled dependencies. Works on any platform. Optional `pytest` 
 
 Like a pocket dictionary for C++ — instead of opening a heavy reference book (browser + cppreference.com), you look up a word (function name) and get the definition immediately, right where you are coding.
 
+## 📦 Links
+
+- **GitHub:** https://github.com/dive4dec/cppmanlite
+- **GitHub Pages:** https://dive4dec.github.io/cppmanlite/
+- **PyPI:** https://pypi.org/project/cppmanlite/
+- **Install:** `pip install cppmanlite`
+
 ## Related Concepts
 
 - [[jupyter-cpp-tutor|jupyter-cpp-tutor]]

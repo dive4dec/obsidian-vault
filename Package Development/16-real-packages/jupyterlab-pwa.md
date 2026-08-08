@@ -19,6 +19,12 @@ Install with `pip install jupyterlab-pwa`. The package registers shared data (JS
 
 Like turning a website into a native app — instead of opening Chrome and typing a URL every time, you tap an icon on your home screen and it opens full-screen, works offline, and feels like a real app.
 
+## 📦 Links
+
+- **GitHub:** https://github.com/dive4dec/jupyterlab-pwa
+- **PyPI:** https://pypi.org/project/jupyterlab-pwa/
+- **Install:** `pip install jupyterlab-pwa`
+
 ## Related Concepts
 
 - [[jupyterlab-extension|JupyterLab Extension]]

@@ -19,6 +19,12 @@ Install with `pip install jupyter-ai-hermes`, then in JupyterLab select the Herm
 
 Like adding a new language translator to a translation app — the app (Jupyter AI) already knows how to handle requests, you just plug in a new expert (Hermes) who speaks a specific language (ACP protocol).
 
+## 📦 Links
+
+- **GitHub:** https://github.com/dive4dec/jupyter-ai-hermes
+- **PyPI:** https://pypi.org/project/jupyter-ai-hermes/
+- **Install:** `pip install jupyter-ai-hermes`
+
 ## Related Concepts
 
 - [[jupyter-ai-hermes-magics|jupyter-ai-hermes-magics]]

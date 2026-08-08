@@ -24,6 +24,12 @@ The magic registers via the `IPython.core.magic_actions` entry point. Dependenci
 
 Like a walkie-talkie button — press it (write `%%hermes`), speak your message (cell body), and Hermes responds. No need to dial a phone number (write API code) every time.
 
+## 📦 Links
+
+- **GitHub:** https://github.com/dive4dec/jupyter-ai-hermes-magics
+- **PyPI:** https://pypi.org/project/jupyter-ai-hermes-magics/
+- **Install:** `pip install jupyter-ai-hermes-magics`
+
 ## Related Concepts
 
 - [[jupyter-ai-hermes|jupyter-ai-hermes]]

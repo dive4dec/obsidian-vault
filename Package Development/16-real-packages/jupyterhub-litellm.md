@@ -19,6 +19,12 @@ Registered via the `jupyterhub.hub` entry point. The handler intercepts requests
 
 Like a school ID card system — each student has one card (API key handler), and it works at the library, cafeteria, and gym (different AI providers). The student does not need to carry cash (raw API keys) for each service.
 
+## 📦 Links
+
+- **GitHub:** https://github.com/dive4dec/jupyterhub-litellm
+- **PyPI:** https://pypi.org/project/jupyterhub-litellm/
+- **Install:** `pip install jupyterhub-litellm`
+
 ## Related Concepts
 
 - [[jupyter-ai-hermes|jupyter-ai-hermes]]

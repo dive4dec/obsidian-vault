@@ -19,6 +19,12 @@ Install with `pip install jupyter-hermes-proxy`. The package depends on `jupyter
 
 Like a hotel concierge desk inside your room — instead of going to the lobby (separate Hermes dashboard), the concierge (proxy) comes to you via the room's phone (JupyterLab URL).
 
+## 📦 Links
+
+- **GitHub:** https://github.com/dive4dec/jupyter-hermes-proxy
+- **PyPI:** https://pypi.org/project/jupyter-hermes-proxy/
+- **Install:** `pip install jupyter-hermes-proxy`
+
 ## Related Concepts
 
 - [[jupyter-server-proxy|jupyter-server-proxy]]

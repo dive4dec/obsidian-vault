@@ -15,15 +15,22 @@ PORT := 8080
 # Branch for GitHub Pages
 PAGES_BRANCH := gh-pages
 
-.PHONY: site-init site-build site-serve site-deploy site-clean
+.PHONY: site-init site-build site-serve site-deploy site-clean site-fixlinks
 
 # One-time setup: install Quartz npm dependencies
 site-init:
 	cd $(QUARTZ_DIR) && npm install
 
-# Build the static site
+# Build the static site, then repair same-folder wikilink resolution
+# (Quartz's "shortest" strategy breaks bare [[links]] whose note name is not
+# unique in the vault; fix_links.py re-anchors them same-folder-first).
 site-build:
 	cd $(QUARTZ_DIR) && npx quartz build -d $(CONTENT_DIR)
+	python3 $(QUARTZ_DIR)/fix_links.py $(QUARTZ_DIR)/public
+
+# Re-run the link repair on the existing public/ (idempotent; fast).
+site-fixlinks:
+	python3 $(QUARTZ_DIR)/fix_links.py $(QUARTZ_DIR)/public
 
 # Serve locally for preview
 site-serve:
@@ -32,7 +39,7 @@ site-serve:
 # Deploy to GitHub Pages (gh-pages branch)
 site-deploy: site-build site-upload
 
-site-upload:
+site-upload: site-fixlinks
 	@echo "Deploying to $(PAGES_BRANCH) branch..."
 	@ORIGIN=$$(git remote get-url origin) && \
 	 if [ -z "$$ORIGIN" ]; then echo "error: no origin remote. Run: git remote add origin git@github.com:dive4dec/obsidian-vault.git"; exit 1; fi && \

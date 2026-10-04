@@ -12,6 +12,9 @@
 .site/.gh-pages-tmp/
 .site/node_modules/
 .site/.quartz-cache/
+.site/quartz/.quartz-cache/
+.site/.quartz/
+.site/.npm-cache/
 .site/tsconfig.tsbuildinfo
 
 # OS files

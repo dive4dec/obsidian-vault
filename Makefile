@@ -30,21 +30,28 @@ site-serve:
 	cd $(QUARTZ_DIR) && python3 serve.py $(PORT) public
 
 # Deploy to GitHub Pages (gh-pages branch)
-site-deploy: site-build
-	@echo "Deploying to gh-pages branch..."
-	@cd $(QUARTZ_DIR) && \
-	rm -rf .gh-pages-tmp && \
-	cp -r public .gh-pages-tmp && \
-	cd .gh-pages-tmp && \
-	git init -q && \
-	git checkout -b $(PAGES_BRANCH) && \
-	git add -A && \
-	git commit -q -m "Deploy Quartz site $$(date -u '+%Y-%m-%d %H:%M UTC')" && \
-	git push --force origin $(PAGES_BRANCH) && \
-	cd .. && rm -rf .gh-pages-tmp
+site-deploy: site-build site-upload
+
+site-upload:
+	@echo "Deploying to $(PAGES_BRANCH) branch..."
+	@ORIGIN=$$(git remote get-url origin) && \
+	 if [ -z "$$ORIGIN" ]; then echo "error: no origin remote. Run: git remote add origin git@github.com:dive4dec/obsidian-vault.git"; exit 1; fi && \
+	 TMP=$$(mktemp -d) && \
+	 cp -r $(QUARTZ_DIR)/public "$$TMP/site" && \
+	 cd "$$TMP/site" && \
+	 git init -q && \
+	 git checkout -b $(PAGES_BRANCH) && \
+	 git config user.name "obsidian-vault Deploy" && \
+	 git config user.email "deploy@obsidian-vault.local" && \
+	 echo "  indexing ~$$(find . -type f | wc -l) files (this takes a moment)..." && \
+	 git add -A && \
+	 git commit -q -m "Deploy Quartz site $$(date -u '+%Y-%m-%d %H:%M UTC')" && \
+	 git remote add origin "$$ORIGIN" && \
+	 git push --force -u origin $(PAGES_BRANCH); \
+	 STATUS=$$?; cd /; rm -rf "$$TMP"; exit $$STATUS
 	@echo ""
-	@echo "Deployed to gh-pages branch."
-	@echo "Enable GitHub Pages: Repo Settings → Pages → Source: Deploy from branch → gh-pages"
+	@echo "Deployed to $(PAGES_BRANCH) branch."
+	@echo "Enable GitHub Pages: Repo Settings → Pages → Source: Deploy from branch → $(PAGES_BRANCH) / (root)"
 	@echo "Site URL: https://dive4dec.github.io/obsidian-vault/"
 
 # Clean build output

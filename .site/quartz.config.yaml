@@ -76,6 +76,12 @@ plugins:
       enableInHtmlEmbed: true
       enableCheckbox: true
     order: 30
+  # Jupyter-Book/MyST `:::` directive blocks (:::{card}, :::{grid}, :::{iframe})
+  # -> HTML at the mdast level; bodies keep their inline markdown (links,
+  # footnotes, raw <video> tags). Runs after obsidian-flavored-markdown (30).
+  - source: "./quartz/plugins/local/myst-md"
+    enabled: true
+    order: 35
   - source: "@quartz-community/github-flavored-markdown"
     enabled: true
     order: 40

@@ -1,0 +1,19 @@
+{
+  "name": "myst-md",
+  "version": "0.1.0",
+  "description": "Render Jupyter-Book/MyST `:::` directive blocks (card, grid, iframe, generic) that Quartz 5 does not parse natively.",
+  "type": "module",
+  "exports": {
+    ".": { "import": "./index.js" },
+    "./package.json": "./package.json"
+  },
+  "quartz": {
+    "name": "myst-md",
+    "displayName": "MyST Markdown Directives",
+    "description": "Jupyter-Book/MyST `:::` directive blocks (card, grid, iframe) rendered to HTML at the mdast level.",
+    "version": "0.1.0",
+    "quartzVersion": ">=5.0.0",
+    "category": ["transformer"],
+    "defaultOrder": 35
+  }
+}

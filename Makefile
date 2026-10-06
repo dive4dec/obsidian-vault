@@ -24,8 +24,10 @@ site-init:
 # Build the static site, then repair same-folder wikilink resolution
 # (Quartz's "shortest" strategy breaks bare [[links]] whose note name is not
 # unique in the vault; fix_links.py re-anchors them same-folder-first).
+# Invoke the local bin directly: `npx quartz` breaks when the npm cache dir
+# contains root-owned files (EACCES on _npx lock).
 site-build:
-	cd $(QUARTZ_DIR) && npx quartz build -d $(CONTENT_DIR)
+	cd $(QUARTZ_DIR) && node quartz/bootstrap-cli.mjs build -d $(CONTENT_DIR)
 	python3 $(QUARTZ_DIR)/fix_links.py $(QUARTZ_DIR)/public
 
 # Re-run the link repair on the existing public/ (idempotent; fast).
@@ -37,9 +39,11 @@ site-serve:
 	cd $(QUARTZ_DIR) && python3 serve.py $(PORT) public
 
 # Deploy to GitHub Pages (gh-pages branch)
+# Always rebuild fresh (build + link repair) then push, so the deployed site is
+# complete (MOC pages + new areas included) regardless of what is left on disk.
 site-deploy: site-build site-upload
 
-site-upload: site-fixlinks
+site-upload:
 	@echo "Deploying to $(PAGES_BRANCH) branch..."
 	@ORIGIN=$$(git remote get-url origin) && \
 	 if [ -z "$$ORIGIN" ]; then echo "error: no origin remote. Run: git remote add origin git@github.com:dive4dec/obsidian-vault.git"; exit 1; fi && \

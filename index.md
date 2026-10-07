@@ -24,25 +24,13 @@ The initiative is continuously developed — built and extended by students and 
 Each package below was specified, built, and shipped to PyPI by a first-year undergraduate using AI to turn an idea into a working, open-source tool.
 
 ::::{card}
-:header: [`ultrasonic-img-steg`](https://github.com/nicholas-lua/ultrasonic-img-steg)[^ultrasonic-img-steg]
+:header: [`sliveshow`](https://github.com/AlyanAamirAhmedani/sliveshow)[^sliveshow]
 :::{twocol}
 :::{column}
-<video src="https://github.com/dive4dec/obsidian-vault/releases/download/videos_v1/audio_steg_package_Nicholas.mp4" controls preload="metadata"></video>
+<video src="https://github.com/dive4dec/obsidian-vault/releases/download/videos_v1/sliveshow_ytb_sqLCVXU2Ld4.mp4" controls preload="metadata"></video>
 :::
 :::{column}
-<a href="./posters/ultrasonic-img-steg.pdf" target="_blank" rel="noopener"><img src="./posters/ultrasonic-img-steg.png" alt="ultrasonic-img-steg poster" loading="lazy"></a>
-:::
-:::
-::::
-
-::::{card}
-:header: [`traceback-coach`](https://github.com/VoixKz/traceback-coach)[^traceback-coach]
-:::{twocol}
-:::{column}
-<video src="https://github.com/dive4dec/obsidian-vault/releases/download/videos_v1/traceback_coach_1080P_downloaded_from_ytb_XSCAI8eRU7M.mp4" controls preload="metadata"></video>
-:::
-:::{column}
-<a href="./posters/traceback-coach.pdf" target="_blank" rel="noopener"><img src="./posters/traceback-coach.png" alt="traceback-coach poster" loading="lazy"></a>
+<a href="./posters/sliveshow.pdf" target="_blank" rel="noopener"><img src="./posters/sliveshow.png" alt="sliveshow poster" loading="lazy"></a>
 :::
 :::
 ::::
@@ -60,6 +48,30 @@ Each package below was specified, built, and shipped to PyPI by a first-year und
 ::::
 
 ::::{card}
+:header: [`traceback-coach`](https://github.com/VoixKz/traceback-coach)[^traceback-coach]
+:::{twocol}
+:::{column}
+<video src="https://github.com/dive4dec/obsidian-vault/releases/download/videos_v1/traceback_coach_1080P_downloaded_from_ytb_XSCAI8eRU7M.mp4" controls preload="metadata"></video>
+:::
+:::{column}
+<a href="./posters/traceback-coach.pdf" target="_blank" rel="noopener"><img src="./posters/traceback-coach.png" alt="traceback-coach poster" loading="lazy"></a>
+:::
+:::
+::::
+
+::::{card}
+:header: [`ultrasonic-img-steg`](https://github.com/nicholas-lua/ultrasonic-img-steg)[^ultrasonic-img-steg]
+:::{twocol}
+:::{column}
+<video src="https://github.com/dive4dec/obsidian-vault/releases/download/videos_v1/audio_steg_package_Nicholas.mp4" controls preload="metadata"></video>
+:::
+:::{column}
+<a href="./posters/ultrasonic-img-steg.pdf" target="_blank" rel="noopener"><img src="./posters/ultrasonic-img-steg.png" alt="ultrasonic-img-steg poster" loading="lazy"></a>
+:::
+:::
+::::
+
+::::{card}
 :header: [`socratic-watchdog`](https://github.com/xamzar/socratic-watchdog)[^socratic-watchdog]
 :::{twocol}
 :::{column}
@@ -67,18 +79,6 @@ Each package below was specified, built, and shipped to PyPI by a first-year und
 :::
 :::{column}
 <a href="./posters/socratic-watchdog.pdf" target="_blank" rel="noopener"><img src="./posters/socratic-watchdog.png" alt="socratic-watchdog poster" loading="lazy"></a>
-:::
-:::
-::::
-
-::::{card}
-:header: [`sliveshow`](https://github.com/AlyanAamirAhmedani/sliveshow)[^sliveshow]
-:::{twocol}
-:::{column}
-<video src="https://github.com/dive4dec/obsidian-vault/releases/download/videos_v1/sliveshow_ytb_sqLCVXU2Ld4.mp4" controls preload="metadata"></video>
-:::
-:::{column}
-<a href="./posters/sliveshow.pdf" target="_blank" rel="noopener"><img src="./posters/sliveshow.png" alt="sliveshow poster" loading="lazy"></a>
 :::
 :::
 ::::

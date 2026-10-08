@@ -10,7 +10,7 @@ The initiative is continuously developed — built and extended by students and 
 
 - **DIVE — Learn + Build** — One AI-enhanced workspace for programming, live course materials, and shared CPU/GPU resources. Out of the box, no complex setup. The self-learning Hermes agent helps you learn and summarizes skills for you. You can *inspect, adapt, and extend how the coding agent works* — from prompts and tools to context and control, not just use it. ([github.com/dive4dec/jupyter](https://github.com/dive4dec/jupyter))
 - **E-Quiz — Assessment + Management** — A self-contained, programmable online exam system (improved on Moodle) where the teacher is the administrator with full control over course data and tools. AI-powered analytics analyze students' submission histories across attempts to surface common coding mistakes; the integrated Hermes Agent lets teachers run complex analyses quickly. ([github.com/dive4dec/e-quiz](https://github.com/dive4dec/e-quiz))
-- **Debugger — AI-Assisted Visual Debugger** — Python/C++ that executes *locally in the browser*, scaling to large exam cohorts. It gives **hints, not answers**, with step-by-step visualization — keeping the lesson with the student.
+- **Debugger — AI-Assisted Visual Debugger** — Python/C++ that executes *locally in the browser*, scaling to large exam cohorts. It gives **hints, not answers**, with step-by-step visualization — keeping the lesson with the student. ([github.com/dive4dec/OPT_Mentor](https://github.com/dive4dec/OPT_Mentor) · [github.com/dive4dec/OPT_CPP](https://github.com/dive4dec/OPT_CPP))
 - **AI-Ready Knowledge Base** — This Obsidian Vault: an AI-ready knowledge base that is *structured, connected, and clear* — built with AI and ready for AI to use.
 - **DeepSeek Harness (`dsh`)** — Newly released and already integrated. The Node launcher + agent runtime that powers DIVE's coding agent — the layer you shape. (See the [[Deepseek Harness MOC|Deepseek Harness]] area.)
 
@@ -110,10 +110,10 @@ Each package below was specified, built, and shipped to PyPI by a first-year und
 
 Interconnected Obsidian notes:
 
-- [[Agentic Coding/Agentic Coding MOC|**Agentic Coding**]] — 1,231 concept notes across 21 domains
-- [[Hermes Agent/Hermes Agent MOC|**Hermes Agent**]] — 780 concept notes across 15 domains
-- [[Package Development/Package Development MOC|**Package Development**]] — 286 concept notes across 15 domains
-- [[Deepseek Harness MOC|**Deepseek Harness**]] — 751 concept notes across 15 domains
+- **[[Agentic Coding/Agentic Coding MOC|Agentic Coding]]** — 1,231 concept notes across 21 domains
+- **[[Hermes Agent/Hermes Agent MOC|Hermes Agent]]** — 780 concept notes across 15 domains
+- **[[Package Development/Package Development MOC|Package Development]]** — 286 concept notes across 15 domains
+- **[[Deepseek Harness MOC|Deepseek Harness]]** — 751 concept notes across 15 domains
 
 Browse by [tags](/tags/), use the search bar to find any concept, or click the global graph icon to see the full network of connections.
 
